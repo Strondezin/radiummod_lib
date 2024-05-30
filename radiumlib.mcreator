@@ -1,0 +1,41 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Warning",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "radiumlib",
+    "modName": "RadiumLib",
+    "version": "1.0.0",
+    "description": "This mod provides a wide variation of blocks and decorations for all machinima creators. This it\u0027s just a lib mod, you need the content mods to work properly.",
+    "author": "cristian.makes",
+    "websiteURL": "https://x.com/makescristian",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "aidum_ogo_2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Cristian.Makes; Edward",
+    "modElementsPackage": "radium.lib",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

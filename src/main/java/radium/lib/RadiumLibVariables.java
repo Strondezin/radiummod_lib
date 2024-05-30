@@ -1,4 +1,4 @@
-package radium.mod;
+package radium.lib;
 
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
@@ -11,9 +11,9 @@ import net.minecraft.world.World;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
-public class RadiummodVariables {
+public class RadiumLibVariables {
 	public static class MapVariables extends WorldSavedData {
-		public static final String DATA_NAME = "radiummod_mapvars";
+		public static final String DATA_NAME = "radiumlib_mapvars";
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -34,9 +34,9 @@ public class RadiummodVariables {
 		public void syncData(World world) {
 			this.markDirty();
 			if (world.isRemote) {
-				Radiummod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(0, this));
+				RadiumLib.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(0, this));
 			} else {
-				Radiummod.PACKET_HANDLER.sendToAll(new WorldSavedDataSyncMessage(0, this));
+				RadiumLib.PACKET_HANDLER.sendToAll(new WorldSavedDataSyncMessage(0, this));
 			}
 		}
 
@@ -51,7 +51,7 @@ public class RadiummodVariables {
 	}
 
 	public static class WorldVariables extends WorldSavedData {
-		public static final String DATA_NAME = "radiummod_worldvars";
+		public static final String DATA_NAME = "radiumlib_worldvars";
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -72,9 +72,9 @@ public class RadiummodVariables {
 		public void syncData(World world) {
 			this.markDirty();
 			if (world.isRemote) {
-				Radiummod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(1, this));
+				RadiumLib.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(1, this));
 			} else {
-				Radiummod.PACKET_HANDLER.sendToDimension(new WorldSavedDataSyncMessage(1, this), world.provider.getDimension());
+				RadiumLib.PACKET_HANDLER.sendToDimension(new WorldSavedDataSyncMessage(1, this), world.provider.getDimension());
 			}
 		}
 
@@ -103,9 +103,9 @@ public class RadiummodVariables {
 			if (context.side == Side.SERVER) {
 				message.data.markDirty();
 				if (message.type == 0)
-					Radiummod.PACKET_HANDLER.sendToAll(message);
+					RadiumLib.PACKET_HANDLER.sendToAll(message);
 				else
-					Radiummod.PACKET_HANDLER.sendToDimension(message, world.provider.getDimension());
+					RadiumLib.PACKET_HANDLER.sendToDimension(message, world.provider.getDimension());
 			}
 			if (message.type == 0) {
 				world.getMapStorage().setData(MapVariables.DATA_NAME, message.data);

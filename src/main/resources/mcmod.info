@@ -1,11 +1,11 @@
 [
   {
-    "modid": "radiummod",
-    "name": "Radium mod",
-    "description": "",
-    "version": "0.1.0",
-    "credits": "This mod provides a wide variation of blocks and decorations for all machinima creators.",
-    "logoFile": "assets/radiummod/textures/aidum_ogo_2.png",
+    "modid": "radiumlib",
+    "name": "RadiumLib",
+    "description": "This mod provides a wide variation of blocks and decorations for all machinima creators. This it's just a lib mod, you need the content mods to work properly.",
+    "version": "1.0.0",
+    "credits": "Cristian.Makes; Edward",
+    "logoFile": "assets/radiumlib/textures/aidum_ogo_2.png",
     "mcversion": "1.12.2",
     "url": "https://x.com/makescristian",
     "updateUrl": "",
