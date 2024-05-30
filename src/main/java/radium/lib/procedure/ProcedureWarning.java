@@ -27,7 +27,7 @@ public class ProcedureWarning extends ElementsRadiumLib.ModElement {
 			MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
 			if (mcserv != null)
 				mcserv.getPlayerList().sendMessage(new TextComponentString(
-						"\u00A76EN: \u00A7eAny distribution of this mod is not allowed, if you would like to reply to a distribution source for it, send a DM to makescristian on Discord, please."));
+						"\u00A76EN: \u00A7eAny distribution of this mod is not allowed, if you would like to reply to a distribution source for it, send a DM to cristianmakes on Discord, please."));
 		}
 		{
 			MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
@@ -43,7 +43,7 @@ public class ProcedureWarning extends ElementsRadiumLib.ModElement {
 			MinecraftServer mcserv = FMLCommonHandler.instance().getMinecraftServerInstance();
 			if (mcserv != null)
 				mcserv.getPlayerList().sendMessage(new TextComponentString(
-						"\u00A76PT: \u00A7eQualquer distribui\u00E7\u00E3o deste mod n\u00E3o \u00E9 permitida, se voc\u00EA quiser ajudar reportando uma fonte de distribui\u00E7\u00E3o, envie uma DM para makescristian no Discord, por favor."));
+						"\u00A76PT: \u00A7eQualquer distribui\u00E7\u00E3o deste mod n\u00E3o \u00E9 permitida, se voc\u00EA quiser ajudar reportando uma fonte de distribui\u00E7\u00E3o, envie uma DM para cristianmakes no Discord, por favor."));
 		}
 	}
 
