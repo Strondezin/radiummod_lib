@@ -1,0 +1,28 @@
+{
+  "id_map": {},
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "radiummod",
+    "modName": "Radium mod",
+    "version": "0.1.0",
+    "author": "cristian.makes",
+    "websiteURL": "https://x.com/makescristian",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "aidum_ogo_2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "This mod provides a wide variation of blocks and decorations for all machinima creators.",
+    "modElementsPackage": "radium.mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
