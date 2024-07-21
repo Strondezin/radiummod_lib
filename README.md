@@ -1,5 +1,5 @@
 ![Radium_Banner](https://github.com/Strondezin/radiummod_lib/blob/master/textures/other/radium_lib_banner.png?raw=true)
-![Static Badge](https://img.shields.io/badge/1.12%20%7C%201.20.4%2B-2d2d2d?style=for-the-badge&logo=curseforge&logoColor=F7EFED&logoSize=auto&labelColor=28313D)
+![Static Badge](https://img.shields.io/badge/1.12%20%7C%201.20.4%2B-161616?style=for-the-badge&logo=qubesos)
 
 # RadiumMod Lib
 
