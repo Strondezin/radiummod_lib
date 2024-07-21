@@ -1,4 +1,4 @@
-![Radium_Banner](https://github.com/Strondezin/radiummod_lib/blob/master/textures/other/radium_banner.png?raw=true)
+![Radium_Banner](https://github.com/Strondezin/radiummod_lib/blob/master/textures/other/radium_lib_banner.png?raw=true)
 
 # RadiumMod Lib
 
